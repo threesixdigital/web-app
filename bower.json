@@ -1,0 +1,39 @@
+{
+  "name": "web-app",
+  "description": "Modules needed for web app development",
+  "main": "routes.js",
+  "authors": [
+    "THREESIXDIGITAL"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "web",
+    "app",
+    "development",
+    "javascript",
+    "html",
+    "css",
+    "scss",
+    "mean",
+    "stack",
+    "mongodb",
+    "mongoose",
+    "express",
+    "angular",
+    "node"
+  ],
+  "homepage": "https://github.com/threesixdigital/web-app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "angular-animate": "^1.5.8"
+  }
+}

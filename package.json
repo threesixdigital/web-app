@@ -1,0 +1,55 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "Modules needed for web app development",
+  "main": "routes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/threesixdigital/web-app.git"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "development",
+    "javascript",
+    "html",
+    "css",
+    "scss",
+    "mean stack",
+    "mongodb",
+    "mongoose",
+    "express",
+    "angular",
+    "node"
+  ],
+  "author": "THREESIXDIGITAL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/threesixdigital/web-app/issues"
+  },
+  "homepage": "https://github.com/threesixdigital/web-app#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bower": "^1.7.9",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "mongoose": "^4.6.3",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.3",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2",
+    "run-sequence": "^1.2.2"
+  }
+}

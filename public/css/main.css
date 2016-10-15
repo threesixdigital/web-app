@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: red;
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: 1px;
+  animation-name: mymove; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #ffffff; }
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a {
+    display: block;
+    width: 100%; }
+    h1 a:link, h1 a:visited,
+    h2 a:link,
+    h2 a:visited,
+    h3 a:link,
+    h3 a:visited,
+    h4 a:link,
+    h4 a:visited,
+    h5 a:link,
+    h5 a:visited {
+      color: #ffffff;
+      text-decoration: none; }
+    h1 a:hover, h1 a:active,
+    h2 a:hover,
+    h2 a:active,
+    h3 a:hover,
+    h3 a:active,
+    h4 a:hover,
+    h4 a:active,
+    h5 a:hover,
+    h5 a:active {
+      background-color: #ffffff;
+      color: red; }
+
+.box {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: 600;
+  color: red; }
+  .box a {
+    color: red;
+    text-decoration: none; }
+
+.row:after {
+  content: "";
+  clear: both;
+  display: block; }
+
+.one {
+  width: 8.33%;
+  float: left; }
+
+.two {
+  width: 16.66%;
+  float: left; }
+
+.three {
+  width: 25%;
+  float: left; }
+
+.four {
+  width: 33.33%;
+  float: left; }
+
+.five {
+  width: 41.66%;
+  float: left; }
+
+.six {
+  width: 50%;
+  float: left; }
+
+.seven {
+  width: 58.33%;
+  float: left; }
+
+.eight {
+  width: 66.66%;
+  float: left; }
+
+.nine {
+  width: 75%;
+  float: left; }
+
+.ten {
+  width: 83.33%;
+  float: left; }
+
+.eleven {
+  width: 91.66%;
+  float: left; }
+
+.twelve {
+  width: 100%;
+  float: left; }

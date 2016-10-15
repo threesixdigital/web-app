@@ -1,0 +1,49 @@
+@import 'base/color';
+@import 'base/typography';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $red;
+	font-family: $main-font;
+	text-align: center;
+	border-radius: 1px;
+	animation-name: mymove;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	color: $white;
+
+	a {
+		display: block;
+		width: 100%;
+
+		&:link, &:visited {
+			color: $white;
+			text-decoration: none;
+		}
+		&:hover, &:active {
+			background-color: $white;
+			color: $red;
+		}
+	}
+}
+
+.box {
+	background-color: $white;
+	width: 100%;
+	padding: 10px 0;
+	font-weight: 600;
+	color: $red;
+
+	a {
+		color: $red;
+		text-decoration: none;
+	}
+}

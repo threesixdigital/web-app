@@ -1,0 +1,20 @@
+// ROW SETTINGS
+.row:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+// COLUMN SETTINGS
+.one {width: 8.33%; float:left}
+.two {width: 16.66%; float:left}
+.three {width: 25%; float:left}
+.four {width: 33.33%; float:left}
+.five {width: 41.66%; float:left}
+.six {width: 50%; float:left}
+.seven {width: 58.33%; float:left}
+.eight {width: 66.66%; float:left}
+.nine {width: 75%; float:left}
+.ten {width: 83.33%; float:left}
+.eleven {width: 91.66%; float:left}
+.twelve {width: 100%; float:left}
